@@ -1,6 +1,6 @@
 rubix = [[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]
 miniface = 0
-for x in rubix[0]:
+for z in rubix[0]:
     miniface += 1
     if miniface == 1 or miniface == 4 or miniface == 7:
         print("       "+str(z)+",", end = "")
